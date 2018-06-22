@@ -1,0 +1,52 @@
+.wrap{
+	padding: 5px 20px;
+	margin: 0;
+	h2{
+		font-size: 14px;
+	    line-height: 1.4;
+	    margin: 0;
+	    padding: 8px 12px;
+	}
+}
+
+.wp-filter {    
+    ul{
+    	display: block;
+    	margin: 0;
+    	padding: 0;
+    	li{
+    		display: inline-block;
+    		margin: 0;
+    		label, a{
+    			display: inline-block;
+			    margin: 0 10px;
+			    padding: 15px 0;
+			    text-decoration: none;
+    		}
+    		&.actions{
+    			float: right;
+    		}
+    	}
+    }
+}
+table{
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #e5e5e5;
+}
+#activity-widget{
+	#latest-comments{
+		padding-top: 0;
+		margin: 0;
+		li{
+			background-color: transparent;
+		}
+	}
+}
+@media print {
+	.wp-filter{
+		display: none;
+	}
+	h1 span{
+			display: none;
+	}
+}

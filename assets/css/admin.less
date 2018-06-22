@@ -1,0 +1,138 @@
+.post-type-u_cf7_entries #post-body-content,
+.post-type-u_cf7_entries #post-body #entry_general_info .handlediv,
+.post-type-u_cf7_entries #post-body #entry_general_info .hndle {
+  display: none;
+}
+#post-body #entry_general_info.closed .inside {
+  display: block;
+}
+
+.post-type-u_cf7_entries #post-body{ 
+	#entry_general_info{
+		background-color: transparent;
+		box-shadow: none;
+		border: none;
+		.inside{
+			padding: 0;
+			margin: 0;
+		}
+		.inside_content{
+			 background: #fff none repeat scroll 0 0;
+		    border: 1px solid #e5e5e5;
+		    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+		    min-width: 255px;
+			#submission{
+				table textarea,
+				table input{
+					width: 100%;
+				}
+				td.column-actions,
+				th.column-actions{
+					width: 30px;
+					vertical-align: top;
+					.delete_row{
+						border: 1px solid red;
+					    border-radius: 50%;
+					    color: red;
+					    display: block;
+					    font-size: 15px;
+					    height: 12px;
+					    line-height: 12px;
+					    margin: 0 auto;
+					    padding: 5px;
+					    text-align: center;
+					    width: 12px;
+					}
+				}
+			}
+			.entries_tab_content{
+				position: relative;
+				padding: 20px;
+				table{
+					z-index: 22;
+					position: relative;
+					th{
+						text-align: right;
+					}
+					th, td{
+						vertical-align: top;
+						padding: 10px;
+						&.body-mail p:first-child{
+							margin-top: 0	;
+						}
+					}
+				}
+			}
+		    .mailtab{
+		    	.mail_content{					
+					border-bottom: 1px solid #e5e5e5;
+					&:before{
+					    content: "\f466";
+					    font-family: 'dashicons';
+					    opacity: 0.05;
+					    width: 250px;
+					    height: 200px;
+					    font-size: 200px;
+					    text-align: center;
+					    display: block;
+					    line-height: 200px;
+					    position: absolute;
+					    right: 10px;
+					    top: 10px;
+					    -ms-transform: rotate(12deg); /* IE 9 */
+		    			-webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
+		    				transform: rotate(12deg);
+					}	    		
+		    	}
+		    	.u-cf7-entry-bulk-actions{
+		    		label{
+		    			line-height: 30px;
+		    			margin-right: 20px;
+		    		}
+		    	}
+			}
+		}
+		.wp-filter{
+			margin-top: 0;
+		}
+		.u-cf7-entry-bulk-actions{
+			padding: 10px;
+			text-align: right;
+		}
+	}
+	.misc-pub-custom::before {		    
+	    display: inline-block;
+	    font: 400 20px/1 dashicons;
+	    left: -1px;
+	    padding: 0 2px 0 0;
+	    position: relative;
+	    text-decoration: none !important;
+	    top: 0;
+	    vertical-align: top;
+	    color: #82878c;
+	}
+	.misc-pub-submitted_by::before{
+		content: "\f110";
+	}
+	.misc-pub-print::before{
+		content: "\e900";
+		font-family: 'ucat-cf7-entries-managment' !important;
+	}
+	.misc-pub-discussion::before{
+		content: "\f125";
+	}
+	.misc-pub-form::before{
+		content: "\f163";
+	}
+	.misc-pub-referer::before{
+		content: "\f498";
+	}
+}
+.u_cf7_entries_conditions{
+	td{
+		padding: 5px;
+	}
+	tfoot{
+		display: none;
+	}
+}

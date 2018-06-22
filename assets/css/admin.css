@@ -1,0 +1,132 @@
+.post-type-u_cf7_entries #post-body-content,
+.post-type-u_cf7_entries #post-body #entry_general_info .handlediv,
+.post-type-u_cf7_entries #post-body #entry_general_info .hndle {
+  display: none;
+}
+#post-body #entry_general_info.closed .inside {
+  display: block;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside {
+  padding: 0;
+  margin: 0;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content {
+  background: white none repeat scroll 0 0;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  min-width: 255px;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content #submission table textarea,
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content #submission table input {
+  width: 100%;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content #submission td.column-actions,
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content #submission th.column-actions {
+  width: 30px;
+  vertical-align: top;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content #submission td.column-actions .delete_row,
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content #submission th.column-actions .delete_row {
+  border: 1px solid red;
+  border-radius: 50%;
+  color: red;
+  display: block;
+  font-size: 15px;
+  height: 12px;
+  line-height: 12px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  width: 12px;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .entries_tab_content {
+  position: relative;
+  padding: 20px;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .entries_tab_content table {
+  z-index: 22;
+  position: relative;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .entries_tab_content table th {
+  text-align: right;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .entries_tab_content table th,
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .entries_tab_content table td {
+  vertical-align: top;
+  padding: 10px;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .entries_tab_content table th.body-mail p:first-child,
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .entries_tab_content table td.body-mail p:first-child {
+  margin-top: 0	;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .mailtab .mail_content {
+  border-bottom: 1px solid #e5e5e5;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .mailtab .mail_content:before {
+  content: "\f466";
+  font-family: 'dashicons';
+  opacity: 0.05;
+  width: 250px;
+  height: 200px;
+  font-size: 200px;
+  text-align: center;
+  display: block;
+  line-height: 200px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  -ms-transform: rotate(12deg);
+  /* IE 9 */
+  -webkit-transform: rotate(12deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(12deg);
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .inside_content .mailtab .u-cf7-entry-bulk-actions label {
+  line-height: 30px;
+  margin-right: 20px;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .wp-filter {
+  margin-top: 0;
+}
+.post-type-u_cf7_entries #post-body #entry_general_info .u-cf7-entry-bulk-actions {
+  padding: 10px;
+  text-align: right;
+}
+.post-type-u_cf7_entries #post-body .misc-pub-custom::before {
+  display: inline-block;
+  font: 400 20px/1 dashicons;
+  left: -1px;
+  padding: 0 2px 0 0;
+  position: relative;
+  text-decoration: none !important;
+  top: 0;
+  vertical-align: top;
+  color: #82878c;
+}
+.post-type-u_cf7_entries #post-body .misc-pub-submitted_by::before {
+  content: "\f110";
+}
+.post-type-u_cf7_entries #post-body .misc-pub-print::before {
+  content: "\e900";
+  font-family: 'ucat-cf7-entries-managment' !important;
+}
+.post-type-u_cf7_entries #post-body .misc-pub-discussion::before {
+  content: "\f125";
+}
+.post-type-u_cf7_entries #post-body .misc-pub-form::before {
+  content: "\f163";
+}
+.post-type-u_cf7_entries #post-body .misc-pub-referer::before {
+  content: "\f498";
+}
+.u_cf7_entries_conditions td {
+  padding: 5px;
+}
+.u_cf7_entries_conditions tfoot {
+  display: none;
+}
